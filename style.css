@@ -1,0 +1,158 @@
+.header{
+    text-align: left;
+    color: aliceblue;
+    
+}
+header{
+    background-color: rgb(17, 17, 49);
+}
+.nav{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 17, 49);
+    position:sticky;
+    background-attachment: fixed;
+}
+.nav li {
+    float: left;
+}
+.name,li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.background_image{
+    background:url("cosmos.jpg");
+    height:100vh;
+    background-size: cover;
+    position: relative;
+}
+.Intro{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(249, 210, 210);
+}
+.intro_name{
+    font-size:4.5rem;
+}
+.intro_pro{
+    font-size: 2rem;
+}
+h1{
+    text-align: center; 
+    margin-block-end: 0ch;
+    margin-block-start: 0ch;
+}
+.intro_img{
+    border-style: solid;
+}
+.Icon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.column-Icon {
+    text-align: center;
+}
+.column:hover .Icon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(20px,1fr));
+    width: 100%;
+    table-layout: fixed; 
+}
+.column {
+    background-color: rgba(243, 190, 190, 0.755); 
+    border:groove;
+    overflow: hidden;
+}
+#Home,#services,#about{
+    margin-top: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+.about img{
+height: 20rem;
+width: 20rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 2px;
+    background-color: rgb(17, 17, 49);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    border: solid;
+    border-color: black;
+    position: relative;
+    overflow: hidden;
+}
+p{
+    text-size-adjust: 12px;
+}
+.footer {
+    position: relative;
+    color:white;
+    background-color: rgb(17, 17, 49);
+    line-height: 1.6;
+}
+div{
+    display: block;
+}
+
+.about h1{
+    color: whitesmoke;
+}
+.Text{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-display: bold;
+}
+.edu,.Text{
+    color: white;
+}
+.services{
+    background-color: rgb(17, 17, 49);
+    border: solid;
+    border-color: black;
+}
+.footer a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.services h1{
+    color: white;
+}
+.heading{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro_img img{
+    float:right;
+}
+.menu:hover{
+    background-color: rgb(79, 161, 134);
+}
